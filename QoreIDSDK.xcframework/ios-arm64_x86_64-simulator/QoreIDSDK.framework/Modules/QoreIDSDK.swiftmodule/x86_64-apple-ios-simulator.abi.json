@@ -55985,27 +55985,6 @@
       "value": "\"Search\""
     },
     {
-      "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 87,
-      "value": "\"✅  Request: \""
-    },
-    {
-      "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1262,
-      "length": 1,
-      "value": "\" \n \""
-    },
-    {
-      "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/Networking.swift",
-      "kind": "StringLiteral",
-      "offset": 1296,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/coremodule\/submodule\/verifind\/capture\/sorrounding\/SorroundingViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 485,
@@ -58458,133 +58437,133 @@
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 2703,
+      "offset": 2739,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2774,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 2752,
+      "offset": 2788,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3254,
+      "offset": 3290,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3320,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3315,
+      "offset": 3351,
       "length": 1,
       "value": "\"\/workflow\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3506,
+      "offset": 3542,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3537,
+      "offset": 3573,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3579,
       "length": 1,
       "value": "\"\/coordinates\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3626,
+      "offset": 3662,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 3693,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3663,
+      "offset": 3699,
       "length": 1,
       "value": "\"\/compare-coordinates\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3756,
+      "offset": 3792,
       "length": 45,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3787,
+      "offset": 3823,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3793,
+      "offset": 3829,
       "length": 1,
       "value": "\"\/photos\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3876,
+      "offset": 3912,
       "length": 69,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3901,
+      "offset": 3937,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3919,
+      "offset": 3955,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/iOS\/QoreIDSDK\/QoreIDSDK\/infrastructure\/network\/QoreIdApi.swift",
       "kind": "StringLiteral",
-      "offset": 3944,
+      "offset": 3980,
       "length": 1,
       "value": "\"\""
     }
