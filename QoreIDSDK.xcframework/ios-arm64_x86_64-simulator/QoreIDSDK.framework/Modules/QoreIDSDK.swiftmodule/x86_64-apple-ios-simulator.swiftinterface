@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name QoreIDSDK
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name QoreIDSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import BackgroundTasks
@@ -52,19 +52,6 @@ extension QoreIDSDK.PhoneNumberKit {
     public static var commonCountryCodes: [Swift.String]
     public static var forceModalPresentation: Swift.Bool
   }
-}
-public enum EnvironmentConfig {
-  case development
-  case production
-  case staging
-  public static func == (a: QoreIDSDK.EnvironmentConfig, b: QoreIDSDK.EnvironmentConfig) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class ConfigurationEnvManager {
-  @objc deinit
 }
 public enum PhoneNumberError : Swift.Error, Swift.Equatable {
   case generalError
@@ -300,6 +287,7 @@ public class QoreIDParam {
   public func inputData(_ inputData: QoreIDSDK.InputData?) -> QoreIDSDK.QoreIDParam
   public func collection(_ productCode: Swift.String) -> QoreIDSDK.QoreIDParam
   public func workFlow(_ workflowId: Swift.Int) -> QoreIDSDK.QoreIDParam
+  public func workFlowRequiredIdentity(_ identity: Swift.String) -> QoreIDSDK.QoreIDParam
   public func ocrAcceptedDocuments(_ ocrAcceptedDocuments: Swift.Array<Swift.String>?) -> QoreIDSDK.QoreIDParam
   public func build() -> QoreIDSDK.QoreIDParam
   @objc deinit
@@ -394,7 +382,7 @@ public enum SheetSize {
 }
 public struct QoreIdSdk {
   public static let shared: QoreIDSDK.QoreIdSdk
-  public func launch(param: QoreIDSDK.QoreIDParam, vc: UIKit.UIViewController, onResult: ((any QoreIDSDK.QoreIDResult) -> ())?)
+  public func launch(param: QoreIDSDK.QoreIDParam, vc: UIKit.UIViewController, _ source: Swift.String = "", onResult: ((any QoreIDSDK.QoreIDResult) -> ())?)
 }
 @_hasMissingDesignatedInitializers final public class PartialFormatter {
   convenience public init(phoneNumberKit: QoreIDSDK.PhoneNumberKit = PhoneNumberKit(), defaultRegion: Swift.String = PhoneNumberKit.defaultRegionCode(), withPrefix: Swift.Bool = true, maxDigits: Swift.Int? = nil, ignoreIntlNumbers: Swift.Bool = false)
@@ -829,8 +817,6 @@ extension QoreIDSDK.IHProgressHUD {
 extension QoreIDSDK.PhoneNumber {
   public func adjustedNationalNumber() -> Swift.String
 }
-extension QoreIDSDK.EnvironmentConfig : Swift.Equatable {}
-extension QoreIDSDK.EnvironmentConfig : Swift.Hashable {}
 extension QoreIDSDK.PhoneNumberFormat : Swift.Equatable {}
 extension QoreIDSDK.PhoneNumberFormat : Swift.Hashable {}
 extension QoreIDSDK.PhoneNumberType : Swift.Equatable {}
