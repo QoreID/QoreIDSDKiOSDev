@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'QoreIDSDKDev'
-    s.version           = '1.0.4'
+    s.version           = '1.0.5'
     s.summary           = 'QoreIDSDKDev iOS verify me library'
     s.homepage          = 'https://github.com/QoreID/QoreIDSDKiOSDev'
 

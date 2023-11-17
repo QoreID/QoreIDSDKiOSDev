@@ -385,6 +385,10 @@ public struct SuccessResult : QoreIDSDK.QoreIDResult {
   public var message: Swift.String?
   public var data: QoreIDSDK.ResultData?
 }
+public struct PendingResult : QoreIDSDK.QoreIDResult {
+  public var message: Swift.String?
+  public var data: QoreIDSDK.ResultData?
+}
 public struct ErrorResult : QoreIDSDK.QoreIDResult {
   public var message: Swift.String
   public var code: QoreIDSDK.ErrorCode
