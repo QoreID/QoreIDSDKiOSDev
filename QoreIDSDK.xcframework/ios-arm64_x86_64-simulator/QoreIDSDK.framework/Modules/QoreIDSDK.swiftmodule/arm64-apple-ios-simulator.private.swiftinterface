@@ -10,7 +10,6 @@ import CoreLocation
 import CoreMotion
 import FaceTecSDK
 import Foundation
-import HealthKit
 import ImageIO
 import MapKit
 import MobileCoreServices
